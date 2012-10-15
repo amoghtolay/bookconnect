@@ -8,3 +8,5 @@ The searching part which includes a way to search for books in the database is v
 This repo contains only the backend of the website and the limited amount of HTML used is only for debugging purposes.
 
 If you plan to work on it further, please read the TODO.txt file for new ideas, bugs etc.
+
+PS. The code is pretty modular and divided into files, if you want to use certain sections, it'll be quite easy to do so! :)
