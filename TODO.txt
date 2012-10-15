@@ -1,0 +1,53 @@
+Status Report of the Website bookconnectv2.0!!
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+TO DO TODAY!!!!!
+
+1.	Make a section of the site for carpooling!! It should be plain and simple with a complete 'searchable(based on day and location)' list!! It should display
+	everything as someone might go for a compromise...
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Unrectified Bugs:
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Things to Do:
+1. 	Write Forgot Paswd File
+
+1.	Help in making frontend of the site!!
+
+2.	Make a forum for each course where students can discuss abt profs/courses etc. etc. :P
+
+3.	Make a section where videos can be shared, like IITG TV!! Idea from that TED Talks, probably share ur expts/ted vids etc
+
+4.	Make a section of the site for carpooling!! It should be plain and simple with a complete 'searchable(based on day and location)' list!! It should display
+	everything, not just search results, as someone might go for a compromise...
+
+5.  Make a portion of site in which people can just list all their sale/purchase/carpool/Old Cars/Bikes/Tours N Travels/Personal Finance etc....
+	and this will be displayed in the table in the form of a table that everyone can see...
+	The thing is that it will be published after acceptance from one of the site administrators
+	This site portion is named liststuff.php as of now
+
+6.	Make a facebook kind of section on the site, where everyone is everyones friend(like a small community :P), and then make small groups, which
+	appear differently for each user, for eg. i might add say a senior like rajat bhaiya in this group, but other seniors whom i dont know might still group me
+	into one of their groups. 
+	Basically it is absoulutely identical to the concept of "Lists" In facebook!!
+	Using check-boxes, select a list of people/groups and then send them a common message at once
+	
+7.	Make Drop-Down menu for addbook and searchbook
+
+8.	Make code more and more modular, easy to manage and modify
+
+9.	Make code hack/crack proof, especially where GET Request is used
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Things to be modified in the final site on webserver:
+
+1.	Regarding activation mail:
+		a) register-exec redirects to activate.php (commented presently)-DONE
+		b) activation.php is the exec version of activate.php which checks if code is valid and then updates status to active-DONE
+		c) login-exec is changed to ensure that status=active-DONE
+		d) activate.php generates the unique url and sends a mail-DONE
+			
+		Activation is working fine, the only thing to change is update activate.php file so that it generates full URL and sends it to the mail address
+		
+2.	Make a GUI based entry for admins so that they can accept/deny requests for approving 'stuff' 
